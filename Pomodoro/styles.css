@@ -59,6 +59,7 @@ input::placeholder, textarea::placeholder
 /* Invisible input field */
 .invisible-input 
 {
+  text-decoration: underline;
   text-align: center;
   width: auto;
   height: auto;
@@ -69,4 +70,31 @@ input::placeholder, textarea::placeholder
   padding: 0;
   font-family: inherit;
   color: inherit
+}
+
+/* Buttons container */
+.timer {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 20px;
+}
+button 
+{
+  font-size: 20px;
+  color: #faf6f5;
+  border-radius: 25px;
+  background-color: rgb(127, 107, 106);
+  padding: 20px;
+  width: 90px;
+}
+.submit-button 
+{
+  font-size: 20px;
+  color: #faf6f5;
+  border-radius: 25px;
+  background-color: rgb(127, 107, 106);
+  padding: 20px;
+  width: 150px;
+  margin-top: 20px;
 }
