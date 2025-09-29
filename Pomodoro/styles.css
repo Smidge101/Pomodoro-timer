@@ -1,22 +1,72 @@
-#div1 
-{
-  margin: 30px auto; 
-  border-radius: 25px;
-  background-color: #7f6b6a;
-  padding: 20px;
-  width:  1100px;
-  height: 40px;
-}
-h1
-{
-    text-align: center;
-    color: #faf6f5
-}
+/* Used for div1 */
+/*Find error for code, center 00:000 make font size bigger!!!*/
+/* background image */
 body
 {
-   background-image: url('img.png');
-    background-size: cover; 
-    background-position: center;
-    background-attachment: fixed;
-    color: #ab5050;
+  background-image: url('img.png');
+  font-family: 'Canva Sans', sans-serif; 
+  background-size: cover; 
+  background-position: center;
+  background-attachment: fixed;
+  color: #faf6f5;
+}
+#div1 
+{
+  text-align: center;
+  margin: 30px auto; 
+  border-radius: 25px;
+  background-color: rgb(127, 107, 106);
+  padding: 20px;
+  width:  1100px;
+  height: auto;
+}
+/* Title of the Pomodoro Timer */
+h1
+{
+  font-family: 'Canva Sans', Arial, sans-serif;
+  color: #faf6f5;
+}
+/* The transparent-ish text box */
+.container
+{
+  text-align: center;
+  width: 1000px;
+  background-color: rgba(127, 107, 106, 0.7);
+  border-radius: 15px;
+  padding: 20px;
+  height: auto; /* Minimum height for the container */
+  margin: 50px auto;
+}
+/* Used for the mini title insdie the transparent container */
+p
+{
+  font-family: 'Canva Sans', sans-serif;
+  color: #faf6f5;
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+/* Placeholder text styles */
+input::placeholder, textarea::placeholder 
+{
+  text-decoration: underline;
+  font-family: 'Canva Sans', sans-serif;
+  color: #faf6f5; /* Placeholder text color */
+  font-size: 90px;
+  
+}
+
+/* Invisible input field */
+.invisible-input 
+{
+  text-align: center;
+  width: auto;
+  height: auto;
+  font-size: 4.5em;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 0;
+  font-family: inherit;
+  color: inherit
 }
