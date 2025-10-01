@@ -47,7 +47,7 @@ p
 }
 
 /* Placeholder text styles */
-input::placeholder, textarea::placeholder 
+input::value, textarea::value
 {
   text-decoration: underline;
   font-family: 'Canva Sans', sans-serif;
